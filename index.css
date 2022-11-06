@@ -3,7 +3,7 @@
     height: 1100px;
 }
 
-/* header */
+/* menu */
 .container .hd2{
     margin: 0 ;
 }
@@ -30,6 +30,9 @@
 /* card */
 .container .r3{
     width: 100%;
+}
+.container .c1{
+    transition: all 0.6s ease-in;
 }
 .container .r3 p{
     margin: 0;
@@ -60,4 +63,16 @@
         /* box-sizing: border-box; */
     }
     
+}
+
+/*  ----------HOVER ------ */
+.container .r3 .c1:hover{
+    /* animaton zoom */
+    /* neu < 1 thi zoom nho ; >1 thi phong to */
+    transform: scale(1.05);
+}
+/* menu */
+.container a:hover{
+    font-weight: bold;
+    box-sizing: border-box;
 }
