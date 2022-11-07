@@ -1,6 +1,7 @@
 .container {
     /* background-color: antiquewhite; */
     height: 1100px;
+    font-family: 'roboto, sans-serif';
 }
 
 /* menu */
@@ -73,6 +74,6 @@
 }
 /* menu */
 .container a:hover{
-    font-weight: bold;
+    color: gainsboro;
     box-sizing: border-box;
 }
