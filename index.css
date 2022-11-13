@@ -1,7 +1,16 @@
+.my-container{
+    width: 100%;
+    height: 1200px;
+        /* background-image: linear-gradient( rgb(96, 48, 187) , rgb(220, 34, 220)); */
+}
 .container {
     /* background-color: antiquewhite; */
     height: 1100px;
     font-family: 'roboto, sans-serif';
+    /* position: absolute;
+    top: 5px;
+    left: 70px; */
+    margin-top: -150px;
 }
 
 /* menu */
@@ -12,15 +21,16 @@
     margin-top: 5px;
     text-align: center;
     text-transform: capitalize;
-    /* color: white; */
+    color: rgb(239, 202, 235);
 }
 .r1 span{
-    color: white;
+    color: rgb(239, 202, 235);
 }
 .clr1{
-    
+    /* margin: ; */
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 /* slide */
@@ -46,14 +56,17 @@
 .container .title{
     text-align: center;
     text-transform: capitalize;
+    color: white;
 }
 /* end */
 .r4{
     /* background-color: darksalmon; */
     text-transform: none;
+    color: white;
 }
 .r4 .pr4{
     margin-top: 8px;
+    margin-left: 15px;
 }
 /* ---------------- */
 @media screen and (max-width: 480px) { 
@@ -77,3 +90,42 @@
     color: gainsboro;
     box-sizing: border-box;
 }
+
+/* ------------background--------- */
+/* br-r1 */
+.my-container .br-r1{
+    background: rgba(92, 20, 160, 0.2);
+}
+.my-container .bg-r2{
+    background: rgba(92, 20, 160, 0.4);
+}
+/* bg-cardbody */
+.card-body{
+    background-image: url('https://wallpapershome.com/images/pages/ico_v/24119.jpeg');
+    /* background-color: rgba(192, 92, 235, 0.9); */
+    color: white;
+}
+
+
+
+/* ---------------------- */
+body {
+    background: linear-gradient(-45deg, #ee7752, #9f2371, #23a6d5, #23d5ab, rgb(126, 24, 222));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /*  */
